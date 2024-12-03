@@ -4,7 +4,6 @@
     display: grid;
 
     width: 1200px;
-    height: 600px;
     grid-template-areas:
   "h h"
 "n c";
@@ -13,22 +12,5 @@
     /*grid-gap: 10px;*/
 }
 
-.header {
-    grid-area: h;
-    background-color: green;
-}
 
-.nav {
-    grid-area: n;
-    background-color: blue;
-}
 
-.contant {
-    grid-area: c;
-    background-color: #e6e1ec;
-
-}
-
-.header img {
-    width: 20px;
-}
