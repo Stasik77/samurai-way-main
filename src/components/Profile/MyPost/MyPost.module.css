@@ -1,9 +1,6 @@
-.contant {
+.content {
     grid-area: c;
     background-color: #9879bd;
 
 }
 
-.item {
-    color: #225e23;
-}
