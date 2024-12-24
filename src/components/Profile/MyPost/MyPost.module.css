@@ -1,6 +1,7 @@
-.content {
-    grid-area: c;
-    background-color: #9879bd;
 
+.postBlock {
+    padding: 15px;
 }
-
+.contant{
+    margin-top: 15px;
+}
