@@ -8,7 +8,7 @@ type PostPropsType = {
 
 
 }
-export const Post = (props: PostPropsType) => {
+export const Post = (props: any) => {
     return <>
         <div className={s.item}>{props.message},<span>like</span>{props.like}</div>
     </>

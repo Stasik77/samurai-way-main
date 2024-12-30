@@ -5,11 +5,11 @@ import {NavBar} from './components/NavBar/NavBar';
 import {Profile} from './components/Profile/Profile';
 import {Dialogs} from './components/Dialogs/Dialogs';
 import {BrowserRouter, Route} from 'react-router-dom';
-import {New} from './components/new/News';
-import {Music} from './components/music/Music';
 
 
-function App() {
+
+function App(props: any) {
+
 
     return (
         <BrowserRouter>
@@ -17,10 +17,10 @@ function App() {
                 <Header/>
                 <NavBar/>
                 <div className="app-wrapper-content">
-                    <Route path="/profile" component={Profile}/>
-                    <Route path="/dialogs" component={Dialogs}/>
-                    <Route path="/new" component={New}/>
-                    <Route path="/music" component={Music}/>
+                    <Route path="/profile" render={()=> <Profile postsData={props.postsData}/>}/>
+                    <Route path="/dialogs" render={()=> <Dialogs dialogsData={props.dialogsData} messagesData={props.messagesData}/>}/>
+
+
                 </div>
             </div>
         </BrowserRouter>
