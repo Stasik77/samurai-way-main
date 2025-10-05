@@ -10,15 +10,15 @@ type postsDataType ={
 
 export const MyPost = (props:any) => {
 
-    //
-    // let postsData = [
-    //     {id: 1, message: "Hi how are you" ,likesCount: 15},
-    //     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-    //     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-    //     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-    //     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-    //     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-    // ]
+
+    let postsData = [
+        {id: 1, message: "Hi how are you" ,likesCount: 15},
+        {id: 2, message: "its my 1 post" ,likesCount: 15 },
+        {id: 2, message: "its my 1 post" ,likesCount: 15 },
+        {id: 2, message: "its my 1 post" ,likesCount: 15 },
+        {id: 2, message: "its my 1 post" ,likesCount: 15 },
+        {id: 2, message: "its my 1 post" ,likesCount: 15 },
+    ]
 
 
     let postElement =  props.postsData.map((p: { message: any; likesCount: any; }) =><Post message={p.message} like={p.likesCount} /> )
