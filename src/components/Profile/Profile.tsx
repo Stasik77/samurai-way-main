@@ -13,14 +13,14 @@ export const Profile = (props:any) => {
 
 
 
-// let postsData = [
-//     {id: 1, message: "Hi how are you" ,likesCount: 15},
-//     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-//     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-//     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-//     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-//     {id: 2, message: "its my 1 post" ,likesCount: 15 },
-// ]
+let postsData = [
+    {id: 1, message: "Hi how are you" ,likesCount: 15},
+    {id: 2, message: "its my 1 post" ,likesCount: 15 },
+    {id: 2, message: "its my 1 post" ,likesCount: 15 },
+    {id: 2, message: "its my 1 post" ,likesCount: 15 },
+    {id: 2, message: "its my 1 post" ,likesCount: 15 },
+    {id: 2, message: "its my 1 post" ,likesCount: 15 },
+]
 
 
 
